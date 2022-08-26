@@ -30,7 +30,7 @@ pipeline {
 		stage ('Docker Run') {
 			steps {
 				script {
-					dockerimage.run("-p 8087:8080 --name jen1-dockercontainer1")
+					dockerimage.run("-p 8088:8080 --name jen2-dockercontainer1")
 				}
 			}
 		}	
